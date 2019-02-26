@@ -1,0 +1,12 @@
+<h1>My Pages</h1>
+
+<% @pages.each do |page| %>
+  <%= page.title %>
+  <%= link_to 'Show Page', page_path(page) %> 
+<% end %>
+
+ <!-- non echoing -->
+<% %>
+
+<!-- echoing -->
+<%= %>
